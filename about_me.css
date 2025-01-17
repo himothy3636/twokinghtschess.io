@@ -1,0 +1,48 @@
+body {
+    background-color: #36454F; /* Sets the background color */
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about_me_info{
+    position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+    top: 211px;           /* Move the button 714px from the top of the screen */
+    left: 651px;          /* Move the button 484px from the left side of the screen */
+    padding: 10px 20px;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;} 
+    #rectangle {
+        position: absolute;
+        top: -8px;
+        left: -9px;
+        width: 1524px;
+        height: 56px;
+        z-index: -1;  
+    }
+    #home_button {
+        position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+        padding: 10px 20px;
+        font-size: 16px;
+        height: 50px;
+        width: 306px;
+        background-color: #00334D;
+        border-color: #00334D;
+    }
+    #pricing_button {
+        position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+        left: 700px;          /* Move the button 484px from the left side of the screen */
+        padding: 10px 20px;
+        font-size: 16px;
+        height: 50px;
+        width: 100px;
+        background-color: #00334D;
+        border-color: #00334D;
+    }
+    #about_me {
+        position: absolute;  /* Position the button relative to the nearest positioned ancestor */
+        left: 476px;          /* Move the button 484px from the left side of the screen */
+        padding: 10px 20px;
+        font-size: 16px;
+        height: 50px;
+        width: 100px;
+        background-color: #00334D;
+    }
